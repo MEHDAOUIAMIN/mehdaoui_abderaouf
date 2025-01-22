@@ -1,0 +1,159 @@
+/* تعديل الألوان والإعدادات */
+body {
+    background-color: rgb(26, 26, 26); /* خلفية داكنة */
+}
+
+.two {
+    color: #ffffff; /* نص أبيض */
+    position: absolute;
+    top: -6cm;
+    left: 0cm;
+    font-size: 3cm;
+    width: 1cm;
+    right: -1cm;
+}
+
+section {
+    position: absolute;
+    left: 0cm;
+    font-weight: 100;
+    font-size: large;
+}
+
+samp {
+    color: brown; /* لون النص البرونزي */
+}
+
+.one {
+    transform: scale(0.2);
+    position: absolute;
+    top: -9.5cm;
+    left: 2.3cm;
+}
+
+.insta {
+    width: 200px;
+    right: 200px;
+    border-radius: 50%;
+    transform: scale(0.5);
+    position: absolute;
+    top: 38.8cm;
+    left: -1cm;
+    background-color: brown;
+}
+
+.contacts {
+    color: rgb(255, 255, 255);
+    font-size: 2cm;
+    position: absolute;
+    top: 40cm;
+    background-color: rgb(250, 38, 126); /* لون خلفية وردي */
+    width: 300px;
+    border-radius: 25%;
+}
+
+.face {
+    width: 200px;
+    right: 200px;
+    border-radius: 50%;
+    transform: scale(0.5);
+    position: absolute;
+    top: 38.8cm;
+    left: 2cm;
+    background-color: brown;
+}
+
+.x {
+    width: 200px;
+    right: 200px;
+    border-radius: 50%;
+    transform: scale(0.5);
+    position: absolute;
+    top: 38.8cm;
+    left: 5.2cm;
+    background-color: brown;
+    cursor: pointer;
+    border: 2px solid crimson; /* لون الحدود الأحمر */
+}
+
+.x:hover {
+    background-color: transparent;
+    border: 4px solid rgb(255, 255, 255); /* تغيير الحدود عند التمرير */
+}
+
+ul li a {
+    list-style-type: none;
+    display: inline-block;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255); /* لون النص الأبيض */
+    font-size: 1.8cm;
+    transition: 0.4s;
+    padding-left: 3cm;
+}
+
+ul li a:hover {
+    color: darkred; /* تغيير اللون عند التمرير */
+}
+
+nav {
+    color: rgb(255, 255, 255);
+    font-size: 4cm;
+    padding-left: 25cm;
+    position: relative;
+    top: -4cm;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.subscribe {
+    color: rgb(255, 255, 255);
+    background-color: rgb(250, 38, 126); /* خلفية وردية */
+    width: 155px;
+    right: 200px;
+    border-radius: 30%;
+    font-size: 2cm;
+    position: absolute;
+    top: 1.2cm;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.subscribe:hover {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.pro {
+    position: absolute;
+    left: 47cm;
+    top: 5cm;
+    transform: scale(1);
+}
+
+.hand {
+    transform: scale(0.4);
+    position: absolute;
+    top: 0cm;
+    left: -15cm;
+    opacity: 0.5;
+}
+
+.programmer {
+    font-size: 3cm;
+    color: #ffffff; /* لون النص الأبيض */
+    background-color: rgb(250, 38, 126); /* خلفية وردية */
+    width: 200px;
+    border: 20%;
+    position: absolute;
+    top: 13cm;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
